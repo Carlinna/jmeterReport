@@ -11,3 +11,4 @@
         因为全部打开可能导致无法生成报告,如果需要的可以在jmeter的propertity里面修改
         
         4.运行用reportTask 这个target这个是自己写的,详细见build.xml。# jmeterReport
+# jmeterReport
