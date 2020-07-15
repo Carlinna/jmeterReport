@@ -259,7 +259,6 @@ public class ReportHtml {
         int failCase = allCase - passCase;
         String passRate = numberFormat.format((float) passCase / (float) allCase * 100) + "%";  //通过率
 //        report.setPassRate(passRate);
-//       String runTime = runTimeLong + "秒";
         String runTime = runTimes + "秒";
         String ip = OS.getLocalIP();
         String summary = "" +

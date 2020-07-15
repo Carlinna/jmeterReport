@@ -66,7 +66,7 @@ public class ReportTask extends Task {
         try {
             SendEmail.sendEmail(mailObj);
         } catch (Exception e) {
-           // System.out.println("发送邮件失败:"+e);
+            System.out.println("发送邮件失败:"+e);
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
 
