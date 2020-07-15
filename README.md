@@ -10,4 +10,4 @@
         3.需要修改jtl文件的格式为xml，在build.xml里面可以修改,还有需要输出的报告列名,我注释了很多,
         因为全部打开可能导致无法生成报告,如果需要的可以在jmeter的propertity里面修改
         
-        4.运行用reportTask 这个target这个是自己写的,详细见build.xml。
+        4.运行用reportTask 这个target这个是自己写的,详细见build.xml。# jmeterReport
